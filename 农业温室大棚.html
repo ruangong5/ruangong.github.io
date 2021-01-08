@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background:rgb(81, 193, 221);
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(81, 193, 221);
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color:rgb(81, 193, 221);
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  color:black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color:rgb(81, 193, 221);
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:rgb(81, 193, 221);
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>农业温室大棚预警系统</h1>
+</div>
+
+<div class="topnav">
+  <a href="产品描述.html">产品描述</a>
+  <a href="功能需求.html">功能需求</a>
+  <a href="软件属性.html">软件属性</a>
+
+ 
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>系统介绍</h2>
+      <h5></h5>
+      <img src="111.jpg" width="420px"height="400px">
+      <img src="112.jpg" width="420px"height="400px">
+      <p>1.随着社会和经济的发展,人们对物质生活的需求越来越高。中国人口众多,人均耕地面积很少,如何提高农作物产量,实行耕地面积利用率的最大化十分重要。为了提高单位面积上农作物的产量,国内外纷纷提出了自己的智能温室大棚系统设计方案。所谓的智能温室大棚系统设计就是通过现代科学技术手段,调节农作物生长所需的各种环境条件,主要就是温度,从而使农作物处于最佳的生长环境中,进而最大幅度地提高农作物的产量。</p>
+      
+    </div>
+    <div class="card">
+      <h2>软件开发背景</h2>
+      <h5></h5>
+      <img src="112.jpg" width="500px"height="480px">
+      <p>本软件开发的背景是随着社会和经济的发展,人们对物质生活的需求越来越高。中国人口众多,人均耕地面积很少,如何提高农作物产量,实行耕地面积利用率的最大化十分重要。开发的意图是更加科学的经管温室大棚，应用目标是使用户最终获得更大的收益。作用范围是以农作物为主要经济来源的正业或者个体劳动者,特别适合拥有多个温室大棚用来种植作物的用户。这是一款独立软件，不需要其他软件的支持。</p>
+    
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>关于本系统</h2>
+      <p>该系统的开发最大的作用是更加科学的经管温室大棚,细致化的从温度等可靠数据来分析和制定作物的更加适宜的环境。智能化的使用方法让用户对温室大棚的经管更加省时,省力,让使用者最终获得更大的收益。
+</p>
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <h2>版权所有@19软工第五小组</h2>
+</div>
+
+</body>
+</html>

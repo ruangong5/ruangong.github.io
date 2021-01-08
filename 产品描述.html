@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background:rgb(81, 193, 221);
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(81, 193, 221);
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color:rgb(81, 193, 221);
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  color:black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color:rgb(81, 193, 221);
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:rgb(81, 193, 221);
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>农业温室大棚预警系统</h1>
+  </div>
+
+<div class="topnav">
+  <a href="产品描述.html">产品描述</a>
+  <a href="功能需求.html">功能需求</a>
+  <a href="软件属性.html">软件属性</a>
+  <a href="农业温室大棚.html" style="float:right">返回主页</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>产品功能</h2>
+      <h5></h5>
+
+      <p>智能预警，及时防控，降低生产风险
+可设定各监控点位的温度的报警值，当出现被监控点位数据异常时可自动像管理者发出报警信号。报警方式包括：现场媒体声光报警、网络客户端报警、电话语音报警、手机短信息报警等。上传用户设置的报警信息并进行本地或者远程监测，系统可在不同的时刻通知到当时的值班人员。工作人员手动处理后解除异常，或者由系统自动处理后结解除异常。</p>
+      
+    </div>
+    <div class="card">
+      <h2>软件开发背景</h2>
+      <h5></h5>
+<p>智能监控，精准作业，减少人工支出
+  采用计算机网络通讯技术，局域网内的任何一台电脑都可以访问监控电脑，在线查看监控点位的温度变化情况，实现远程监测。无论用户在户内还是户外，用智能手机就可以非常方便地观看农业温室大棚和监控大棚温度。远程智能控制温度控制设备，大幅降低人力成本投入的同时，可避免人为操作错误，实现精准的农事作业，有效提高生产效率。</p>
+    
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>版权所有@19软工第五小组</h2>
+</div>
+
+</body>
+</html>
